@@ -1,0 +1,10 @@
+{
+    "name": "gasex/api",
+    "description": "apirest para gasex.cl",
+        
+       
+    "require": {
+        "slim/slim": "3.*",
+        "tuupola/slim-jwt-auth": "^3.5"
+    }
+}
