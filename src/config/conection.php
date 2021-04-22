@@ -6,10 +6,10 @@ class DBconection{
 
 
 	public static function conection(){
-        $ip='localhost';
-        $db='gasexcl_servicios';
-        $user='gasexcl_felix';
-        $pass='F3l1X*2020*';
+        $ip='185.201.11.181';
+        $db='u760464700_temp_quillpa';
+        $user='u760464700_temp_quillpa';
+        $pass='hL[1VbgF';
 
 		try {
 			$conexion = new PDO ("mysql:host=$ip;dbname=$db;charset=utf8",$user,$pass);
